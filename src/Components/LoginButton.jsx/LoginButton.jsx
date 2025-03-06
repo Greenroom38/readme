@@ -21,7 +21,7 @@ function LoginButton() {
       ) : (
         <>
             <p className='text-blue-600 font-semibold text-lg mb-2'>Please Log In</p>
-            <button className='bg-green-500 hover:green-700 text-white font-bold py-2 px-4 rounded-2xl' onClick={toggleLogin}>LOG IN</button>
+            <button className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-2xl' onClick={toggleLogin}>LOG IN</button>
         </>
 
       ) }
